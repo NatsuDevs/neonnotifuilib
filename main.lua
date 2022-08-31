@@ -1,1 +1,109 @@
-return(function(...)local l={"dsdhmbciIsBf+T==";"dsdhmF==","dnmzaYuPaoC7JYcz","a73KaQ==","Q03VJ7mfI5d8a32fXYuWGs3faYuV4Q==";"20B8mF==";"dq2NIP/=","Q0Bfasdfq7zEadUN4sde";"P0ByJYaNX73yJYB82DCAIYq=","2ndfXo2NI7usG03KaQ==","oRBNI02z4F==","Q03VJ7mfI5d8abciIsBf+T==","Psd0mF==";"dnmzaYuCI0ai";"kYh=","YHz8asdhQ0dvXoaNI5/=","QYuVJsBfqsBNIDQ=";"Q5CzXo2z","dq2NIQ==";"27dyq7dfm0zVaQ==","2sdWmnCi4Q==";"qs3Hasz8ayCimn2iIQ==","dsdhm3cN40q=","m5CAGF==";"I0d5";"dsdhmbCimYuHGT==","kYuWms38X7q=","2YuRIQ==";"Q0BfasdfQ7BeI5/W","Q7gNGncbaocVaYuHXYuyGT==";"aDCiIdCnQS==","PWACQqBkX5ao+5AKYs6=","q7z8aQ==";"qs3Hasz8aygzaDQ=","qs3faYuy","Psz8aY3f";"Ps3uI5dyP5CHao/=";"2sdWX5CNGn2NI7h=","20z8abaNGDcyQ7ANIsQ=","Q0BymsBK";"dqz+JocyPs3uI5dy";"Q7BeI5/W";"qsBWJo2NI7h=";"q7BfmbBfasdf","YF==";"qodAaF==","mYuTXYcp";"27ByJs3KPYdHJodK";"oRBDXT==";"d0dfmszVXYgUIszDI0RzIDQ=","kYu1moQ=";"Q7BfI0dfq03HJodW","2Y3WJYuDq52uIsq=","oRBeaYh=";"m732+dAn4H2hkqbg";"Q7BfaqmRJQ==","qsgA4Q==","q7cfaYd825dN","dszyIsq=","2Y3WJYuD2szfaYcyJYB8";"P03KaQ==";"q5UrGoUV2D2a2qyy","P0ByJYaNX73yJYB8ksBeasdf";"d0dVmsBf+S==","qs3Hasz8aT==";"P0diIOUZI52NaOUY+S==";"q7zOIsz8aT==","2DCAIYq=","d73NmF==";"Q7BKGsgzmsdH";"P0diIOU/mY/=";"dsdhmbgAX0de","27ByJs3KQ0BeaF==";"dsdhm3AUIszDI0RzIDQ=","dqztI5C8ao/=";"q7zEaQ==","dqzQXY2HJYuD";"QDCi/saiG0mimn2zarUyIfUKXYKz/b2zG7cfJoUyJYB8","X7BfI5dyJYuz"}local function r(r)return l[r+61052]end for r,b in ipairs({{1,79},{1;29};{30;79}})do while b[1]<b[2]do l[b[1]],l[b[2]],b[1],b[2]=l[b[2]],l[b[1]],b[1]+1,b[2]-1 end end do local r=type local b=string.char local V=string.sub local O=l local g=math.floor local o=string.len local T=table.insert local A=table.concat local S={t=3,p=43;O=34,["3"]=5;U=1;["+"]=12,["7"]=54,x=42,X=24;["2"]=17;u=57,L=63;k=18;D=39,Q=16;Y=22,v=40;i=47;q=20,h=56;M=11;m=29,R=53,n=7,T=48;s=6;["0"]=38,z=37;r=2;I=27;F=0,["1"]=15;H=36,A=33;G=28;g=49,o=23,c=13,e=44;["4"]=30,["8"]=46,["6"]=60,y=52;["5"]=55;E=58,a=25;V=35;f=50;J=26;w=10;d=21;N=41;Z=14;["9"]=62;l=59,W=51,b=4,C=9;P=19;j=31;K=45,["/"]=8;S=32,B=61}for l=1,#O,1 do local Q=O[l]if r(Q)=="string"then local r=o(Q)local Z={}local L=1 local K=0 local u=0 while L<=r do local l=V(Q,L,L)local O=S[l]if O then K=K+O*64^(3-u)u=u+1 if u==4 then u=0 local l=g(K/65536)local r=g((K%65536)/256)local V=K%256 T(Z,b(l,r,V))K=0 end elseif l=="="then T(Z,b(g(K/65536)))if L>=r or V(Q,L+1,L+1)~="="then T(Z,b(g((K%65536)/256)))end break end L=L+1 end O[l]=A(Z)end end end return(function(l,V,O,g,o,T,A,Z,q,a,G,H,S,Q,u,L,b,K)H,L,u,Q,G,K,a,Z,q,b,S=function(l,r)local V=K(r)local O=function(O,g,o,T,A)return b(l,{O;g;o,T;A},r,V)end return O end,0,function(l)local r,b=1,l[1]while b do Q[b],r=Q[b]-1,r+1 if 0==Q[b]then Q[b],S[b]=nil,nil end b=l[r]end end,{},function(l,r)local V=K(r)local O=function(O)return b(l,{O},r,V)end return O end,function(l)for r=1,#l,1 do Q[l[r]]=1+Q[l[r]]end if O then local b=O(true)local V=o(b)V[r(-61012)],V[r(-60974)],V[r(-61048)]=l,u,function()return 3955008 end return b else return g({},{[r(-60974)]=u;[r(-61012)]=l;[r(-61048)]=function()return 3955008 end})end end,function(l)Q[l]=Q[l]-1 if Q[l]==0 then Q[l],S[l]=nil,nil end end,function()L=L+1 Q[L]=1 return L end,function(l,r)local V=K(r)local O=function(...)return b(l,{...},r,V)end return O end,function(b,O,g,o)local C,X,B,x,v,f,L,K,e,Q,Y,A,h,N,k,u,W,q while b do if b<11604184 then if b<8898408 then if b<7238902 then A=r(-61019)Q=r(-61020)W=r(-60995)b=l[A]u=r(-61009)A=r(-61003)A=b[A]A=A(b,Q)Q=S[g[1]]f=r(-60995)K=l[u]u=r(-60998)L=K[u]u=.5 x=l[f]b=r(-61005)f=r(-61049)v=x[f]X=r(-60978)x=r(-60990)q=v[x]f=l[W]W=r(-61042)x=f[W]f=r(-61051)v=x[f]b=A[b]K=L(u,q,v)u=r(-61026)x=r(-61016)v=l[x]x=r(-60998)q=v[x]x=0 k=S[g[2]]W=k[X]k=50 f=W+k W=0 k=50 v=q(x,f,W,k)L={[u]=v}b=b(A,Q,K,L)q=r(-61009)L=r(-61020)Q=b A=r(-61032)b=r(-61045)b=Q[b]W=r(-60995)b=b(Q)b=Q[A]A=r(-61033)A=b[A]A=A(b)A=r(-61019)b=l[A]A=r(-61003)A=b[A]k=r(-60995)A=A(b,L)X=1 L=S[g[3]]u=l[q]q=r(-60998)K=u[q]q=S[g[4]]f=l[W]W=r(-61049)x=f[W]f=r(-60987)v=x[f]W=l[k]k=r(-61042)f=W[k]W=r(-61008)x=f[W]u=K(q,v,x)W=0 q=r(-61026)k=0 f=r(-61016)x=l[f]b=r(-61005)f=r(-60998)v=x[f]f=0 b=A[b]x=v(f,W,k,X)K={[q]=x}b=b(A,L,u,K)L=b k=r(-60995)A=r(-61032)b=r(-61045)X=r(-60995)v=r(-61009)K=r(-61020)b=L[b]b=b(L)b=L[A]A=r(-61033)A=b[A]A=A(b)A=r(-61019)b=l[A]L=nil A=r(-61003)A=b[A]A=A(b,K)K=S[g[1]]q=l[v]v=r(-60998)u=q[v]v=.3 W=l[k]Q=nil b=r(-61005)b=A[b]k=r(-61049)f=W[k]W=r(-60977)x=f[W]k=l[X]X=r(-61042)W=k[X]k=r(-61051)f=W[k]C=38 W=r(-61016)q=u(v,x,f)k=0 f=l[W]W=r(-60998)x=f[W]v=r(-61026)X=0 W=0 f=x(W,k,X,C)u={[v]=f}b=b(A,K,q,u)K=b b=r(-61045)b=K[b]b=b(K)A=r(-61032)u=.2 b=K[A]A=r(-61033)A=b[A]A=A(b,u)b=S[g[5]]A=r(-61002)K=nil A=b[A]A=A(b)A=r(-61002)b=S[g[6]]A=b[A]A=A(b)A=r(-61002)b=S[g[1]]A=b[A]A=A(b)A={}b=l[r(-61047)]else b=H(12882937,{v,x,f;W;k,X})A=r(-61005)L[A]=b b=l[r(-60991)]A={L}end else Q=O u=r(-60996)K=r(-60996)A=l[K]K=r(-60998)X=r(-60996)v=r(-60996)b={}L=b b=A[K]q=r(-60996)K=r(-61034)A=b(K)K=A A=l[u]u=r(-60998)b=A[u]k=r(-60996)u=r(-60982)x=r(-60996)A=b(u)W=r(-60996)u=A A=l[q]q=r(-60998)b=A[q]q=r(-61025)A=b(q)q=A A=l[v]f=r(-60996)v=r(-60998)b=A[v]v=r(-61034)A=b(v)v=Z()S[v]=A A=l[x]x=r(-60998)b=A[x]x=r(-61027)A=b(x)x=Z()S[x]=A A=l[f]f=r(-60998)b=A[f]f=r(-61030)A=b(f)f=Z()S[f]=A A=l[W]W=r(-60998)b=A[W]W=r(-61030)A=b(W)W=Z()S[W]=A A=l[k]k=r(-60998)b=A[k]k=r(-61034)A=b(k)Y=r(-61019)k=Z()S[k]=A A=l[X]X=r(-60998)b=A[X]X=r(-61027)A=b(X)X=Z()S[X]=A C=l[Y]Y=r(-61046)A=C[Y]C=r(-60984)C=A[C]Y=r(-61036)C=C(A,Y)b=not C b=b and 12931495 or 7521165 end else if b<12902323 then L=O[2]x=r(-61024)u=Z()C=38 Q=O[1]S[u]=O[4]K=O[3]v=b W=5 q=r(-61031)A=L or q L=A B=50 q=K or x f=S[u]v=f or W x=b S[u]=v f=r(-61041)x=S[g[1]]X=r(-61019)K=q W=r(-61014)x[f]=W x=S[g[1]]f=r(-60988)k=l[X]X=r(-61046)Y=38 W=k[X]X=r(-61036)k=r(-60984)k=W[k]k=k(W,X)X=r(-61039)W=r(-60984)W=k[W]W=W(k,X)x[f]=W f=r(-61011)X=r(-60981)x=S[g[1]]k=l[X]X=r(-60992)W=k[X]X=38 k=W(X,C,Y)x[f]=k X=r(-61016)f=r(-61026)C=0 x=S[g[1]]Y=0 k=l[X]X=r(-60998)W=k[X]X=0 k=W(X,C,Y,B)X=r(-61004)x[f]=k f=r(-60993)W=true x=S[g[1]]x[f]=W x=S[g[2]]k=l[X]C=4 f=r(-61050)X=r(-60998)W=k[X]X=0 k=W(X,C)Y=255 x[f]=k f=r(-60988)x=S[g[2]]B=0 W=S[g[1]]x[f]=W W=r(-61043)x=S[g[3]]f=r(-61041)X=r(-60981)x[f]=W x=S[g[3]]f=r(-60988)W=S[g[1]]x[f]=W x=S[g[3]]k=l[X]f=r(-61011)X=r(-60992)W=k[X]X=255 C=255 k=W(X,C,Y)W=1.0 x[f]=k X=r(-60981)f=r(-61018)x=S[g[3]]A={}x[f]=W x=S[g[3]]Y=53 f=r(-60994)k=l[X]X=r(-60992)W=k[X]X=27 C=42 k=W(X,C,Y)x[f]=k X=r(-61016)f=r(-60980)x=S[g[3]]Y=0 k=l[X]X=r(-60998)W=k[X]X=.03 C=0 k=W(X,C,Y,B)X=r(-61016)B=0 x[f]=k C=0 x=S[g[3]]k=l[X]f=r(-61026)X=r(-60998)W=k[X]X=.961111128 Y=.57 k=W(X,C,Y,B)C=r(-60995)x[f]=k f=r(-61017)x=S[g[3]]X=l[C]C=r(-61017)k=X[C]Y=214 X=r(-61029)W=k[X]x[f]=W W=L x=S[g[3]]X=r(-60981)f=r(-61021)x[f]=W f=r(-61022)x=S[g[3]]k=l[X]X=r(-60992)W=k[X]X=214 C=214 k=W(X,C,Y)W=14.0 x[f]=k f=r(-61000)x=S[g[3]]x[f]=W f=r(-61028)C=r(-60995)x=S[g[3]]X=l[C]C=r(-61028)k=X[C]X=r(-61010)W=k[X]x[f]=W x=S[g[4]]W=r(-60985)f=r(-61041)x[f]=W X=r(-60981)f=r(-60988)x=S[g[4]]Y=255 W=S[g[1]]x[f]=W x=S[g[4]]k=l[X]C=255 f=r(-61011)X=r(-60992)b=l[r(-61040)]W=k[X]B=0 X=255 k=W(X,C,Y)W=1.0 x[f]=k X=r(-60981)x=S[g[4]]f=r(-61018)x[f]=W f=r(-60994)Y=53 x=S[g[4]]C=42 k=l[X]X=r(-60992)W=k[X]X=27 k=W(X,C,Y)Y=.349999994 x[f]=k X=r(-61016)f=r(-60980)C=0 x=S[g[4]]k=l[X]X=r(-60998)W=k[X]X=.03 k=W(X,C,Y,B)x[f]=k Y=.540000021 X=r(-61016)B=0 f=r(-61026)x=S[g[4]]k=l[X]C=0 X=r(-60998)W=k[X]X=.961111128 k=W(X,C,Y,B)x[f]=k f=r(-61017)C=r(-60995)x=S[g[4]]X=l[C]C=r(-61017)k=X[C]X=r(-60975)W=k[X]x[f]=W C=214 x=S[g[4]]f=r(-61021)W=K x[f]=W X=r(-60981)x=S[g[4]]f=r(-61022)Y=214 k=l[X]X=r(-60992)W=k[X]X=214 k=W(X,C,Y)x[f]=k L=nil Y=255 C=r(-60995)x=S[g[4]]f=r(-61000)W=14.0 x[f]=W f=r(-61028)x=S[g[4]]X=l[C]C=r(-61028)k=X[C]X=r(-61010)Q=nil W=k[X]x[f]=W x=S[g[5]]C=255 W=r(-61013)f=r(-61041)x[f]=W x=S[g[5]]f=r(-60988)W=S[g[1]]x[f]=W f=r(-61011)x=S[g[5]]X=r(-60981)k=l[X]X=r(-60992)W=k[X]X=255 k=W(X,C,Y)x[f]=k C=0 x=S[g[5]]Y=.980000019 B=0 f=r(-61015)W=0 x[f]=W x=S[g[5]]f=r(-60980)X=r(-61016)k=l[X]X=r(-60998)W=k[X]X=0 k=W(X,C,Y,B)B=1 x[f]=k x=S[g[5]]C=0 Y=0 f=r(-61026)X=r(-61016)k=l[X]X=r(-60998)W=k[X]X=1 k=W(X,C,Y,B)x[f]=k X=r(-61004)C=4 x=S[g[6]]k=l[X]f=r(-61050)X=r(-60998)W=k[X]X=0 k=W(X,C)x[f]=k f=r(-60988)x=S[g[6]]W=S[g[5]]x[f]=W x=S[g[4]]K=nil W=r(-60997)X=r(-61023)f=x[W]W=Z()S[W]=f k=l[X]X=r(-60999)f=k[X]X=G(2674555,{g[1];W,g[5],u;g[3];g[4]})x=nil k=f(X)u=a(u)W=a(W)f=k()else C=r(-60996)A=l[C]C=r(-60998)b=A[C]C=r(-61044)A=b(C)C=A A=r(-61036)b=r(-61041)C[b]=A b=r(-60988)B=r(-61019)Y=l[B]B=r(-61046)A=Y[B]C[b]=A b=r(-61007)N=r(-60995)B=l[N]N=r(-61007)Y=B[N]B=r(-61035)A=Y[B]C[b]=A B=r(-61019)A=r(-61039)b=r(-61041)N=.5 K[b]=A Y=l[B]b=r(-60988)B=r(-61046)A=Y[B]e=255 Y=r(-60984)B=r(-61036)Y=A[Y]Y=Y(A,B)K[b]=Y b=r(-61006)B=r(-61038)Y=l[B]B=r(-60998)h=0 A=Y[B]B=0 Y=A(B,N)K[b]=Y b=r(-61011)B=r(-60981)Y=l[B]B=r(-60992)A=Y[B]B=255 N=255 Y=A(B,N,e)N=0 A=1.0 K[b]=Y b=r(-61018)K[b]=A B=r(-61016)b=r(-60980)Y=l[B]e=.5 B=r(-60998)A=Y[B]B=0 Y=A(B,N,e,h)B=r(-61016)h=0 K[b]=Y N=0 b=r(-61026)Y=l[B]B=r(-60998)e=1 A=Y[B]B=.800000012 Y=A(B,N,e,h)N=r(-60995)K[b]=Y A=K b=r(-60988)u[b]=A b=r(-60979)B=l[N]N=r(-60979)Y=B[N]B=r(-60986)N=r(-60995)A=Y[B]u[b]=A b=r(-60973)B=l[N]N=r(-60973)Y=B[N]B=r(-60983)C=nil N=4 A=Y[B]u[b]=A b=r(-61037)B=r(-61004)Y=l[B]B=r(-60998)A=Y[B]B=0 Y=A(B,N)u[b]=Y A=K b=r(-60988)N=9 q[b]=A B=r(-61004)Y=l[B]b=r(-61001)B=r(-60998)A=Y[B]B=0 Y=A(B,N)B=r(-61004)q[b]=Y Y=l[B]b=r(-60989)B=r(-60998)N=10 A=Y[B]B=0 Y=A(B,N)q[b]=Y b=7521165 end end end b=#o return V(A)end,{}return(q(10680649,{}))(V(A))end)(getfenv and getfenv()or _ENV,unpack or table[r(-60976)],newproxy,setmetatable,getmetatable,select,{...})end)(...)
+local Notif = {}
+
+local NotificationHolder = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local UIPadding = Instance.new("UIPadding")
+local NotificationFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local Description = Instance.new("TextLabel")
+local DurationFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+
+if (not game.CoreGui:FindFirstChild("Neon Notif V2")) then
+    local proguieznoob = Instance.new("ScreenGui")
+    proguieznoob.Name = "Neon Notif V2"
+    proguieznoob.Parent = game.CoreGui
+    proguieznoob.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+    NotificationHolder.Name = "NotificationHolder"
+    NotificationHolder.Parent = game.CoreGui:FindFirstChild("Neon Notif V2")
+    NotificationHolder.AnchorPoint = Vector2.new(0, 0.5)
+    NotificationHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    NotificationHolder.BackgroundTransparency = 1.000
+    NotificationHolder.Position = UDim2.new(0, 0, 0.5, 0)
+    NotificationHolder.Size = UDim2.new(0.800000012, 0, 1, 0)
+
+    UIListLayout.Parent = NotificationHolder
+    UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+    UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Bottom
+    UIListLayout.Padding = UDim.new(0, 4)
+
+    UIPadding.Parent = NotificationHolder
+    UIPadding.PaddingBottom = UDim.new(0, 9)
+    UIPadding.PaddingLeft = UDim.new(0, 10)
+end
+
+-- End
+
+function Notif:Create(text, des, dur)
+    text = text or "Neon Hub"
+    des = des or "Bro forgotted to make Description"
+    dur = dur or 5
+    NotificationFrame.Name = "NotificationFrame"
+    NotificationFrame.Parent = game.CoreGui:FindFirstChild("Neon Notif V2"):FindFirstChild("NotificationHolder")
+    NotificationFrame.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+    NotificationFrame.Size = UDim2.new(0,0,0,50)
+    NotificationFrame.ClipsDescendants = true
+    
+    UICorner.CornerRadius = UDim.new(0, 4)
+    UICorner.Parent = NotificationFrame
+    
+    Title.Name = "Title"
+    Title.Parent = NotificationFrame
+    Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Title.BackgroundTransparency = 1.000
+    Title.BorderColor3 = Color3.fromRGB(27, 42, 53)
+    Title.Position = UDim2.new(0.03, 0, 0, 0)
+    Title.Size = UDim2.new(0.961111128, 0, 0.57, 0)
+    Title.Font = Enum.Font.GothamBold
+    Title.Text = text
+    Title.TextColor3 = Color3.fromRGB(214, 214, 214)
+    Title.TextSize = 14.000
+    Title.TextXAlignment = Enum.TextXAlignment.Left
+    
+    Description.Name = "Description"
+    Description.Parent = NotificationFrame
+    Description.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Description.BackgroundTransparency = 1.000
+    Description.BorderColor3 = Color3.fromRGB(27, 42, 53)
+    Description.Position = UDim2.new(0.03, 0, 0.349999994, 0)
+    Description.Size = UDim2.new(0.961111128, 0, 0.540000021, 0)
+    Description.Font = Enum.Font.GothamMedium
+    Description.Text = des
+    Description.TextColor3 = Color3.fromRGB(214, 214, 214)
+    Description.TextSize = 14.000
+    Description.TextXAlignment = Enum.TextXAlignment.Left
+    
+    DurationFrame.Name = "DurationFrame"
+    DurationFrame.Parent = NotificationFrame
+    DurationFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    DurationFrame.BorderSizePixel = 0
+    DurationFrame.Position = UDim2.new(0, 0, 0.980000019, 0)
+    DurationFrame.Size = UDim2.new(1, 0, 0, 1)
+    
+    UICorner_2.CornerRadius = UDim.new(0, 4)
+    UICorner_2.Parent = DurationFrame 
+
+    local NotifText = Description
+    local TextBounds = NotifText.TextBounds
+
+    coroutine.wrap(function()
+    local InTween = game:GetService("TweenService"):Create(NotificationFrame, TweenInfo.new(.5, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), {Size = UDim2.new(0, TextBounds.X + 50, 0, 50)})
+    InTween:Play()
+    InTween.Completed:Wait()
+
+    local LineTween = game:GetService("TweenService"):Create(DurationFrame, TweenInfo.new(dur, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {Size = UDim2.new(0, 0, 0, 1)})
+    LineTween:Play()
+    LineTween.Completed:Wait()
+
+    local OutTween = game:GetService("TweenService"):Create(NotificationFrame, TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {Size = UDim2.new(0, 0, 0, 38)})
+    OutTween:Play()
+    OutTween.Completed:Wait(0.2)
+    Title:Destroy()
+    Description:Destroy()
+    NotificationFrame:Destroy()
+    end)()
+end
+
+return Notif
